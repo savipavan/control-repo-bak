@@ -12,6 +12,6 @@ mod 'puppetlabs/concat',  '6.0.0'
 #  git:    'https://github.com/savipavan/puppetlabs-apache.git'
 #  commit: '1b6f89afdde0df7f9433a163d5c4b5328eac5779'
 
-#mod 'apache',
+mod 'apache',
   git:    'https://github.com/savipavan/puppetlabs-apache.git',
   branch: 'main'
