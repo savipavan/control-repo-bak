@@ -14,4 +14,4 @@ mod 'puppetlabs/concat',  '6.0.0'
 
 #mod 'apache',
   git:    'https://github.com/savipavan/puppetlabs-apache.git',
-  branch: 'docs_experiment'
+  branch: 'main'
