@@ -9,9 +9,9 @@ mod 'puppetlabs/concat',  '6.0.0'
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
 #mod 'apache',
-  git:    'https://github.com/savipavan/puppetlabs-apache.git'
+#  git:    'https://github.com/savipavan/puppetlabs-apache.git'
 #  commit: '1b6f89afdde0df7f9433a163d5c4b5328eac5779'
 
 #mod 'apache',
-#  git:    'https://github.com/puppetlabs/puppetlabs-apache',
-#  branch: 'docs_experiment'
+  git:    'https://github.com/savipavan/puppetlabs-apache.git',
+  branch: 'docs_experiment'
