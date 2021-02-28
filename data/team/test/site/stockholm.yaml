@@ -1,8 +1,7 @@
 ---
 classes:
   - types
-types::file_lines:
+types::file_line:
   '/tmp/test.txt':
-    ensure: present
-    mode: '0644'
-    content: "this is message is from common.yaml file"
+    path: /tmp/ensure: present
+    line: "this is message is from common.yaml file"
