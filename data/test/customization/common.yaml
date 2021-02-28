@@ -2,7 +2,7 @@
 classes:
   - types
 types::files:
-  '/tmp/testdir':
-    ensure: directory
+  '/tmp/testdir/test.txt':
+    ensure: file
     mode: '0644'
-    content: "this is loading from common.yaml file"
+    content: "this is loading from customization file"
