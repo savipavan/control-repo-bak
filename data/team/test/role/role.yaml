@@ -3,6 +3,9 @@ classes:
   - types
 types::files:
   '/tmp/testdir':
-    ensure: file
+    ensure: directory
     mode: '0644'
-    content: "/n data loading from role"
+  '/tmp/testdir/file.txt':
+    ensure: 'file'
+    mode: '0755'
+    content: 'This file created by role file'
