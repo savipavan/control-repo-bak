@@ -8,4 +8,4 @@ types::files:
   '/tmp/testdir/file.txt':
     ensure: 'file'
     mode: '0755'
-    content: '/n this file created by site file'
+    content: 'This file created by site file'
