@@ -6,3 +6,4 @@ types::files:
     ensure: present
     mode: '0644'
     content: "this is message is from common.yaml file"
+    before: Directory['/tmp/testdir']
