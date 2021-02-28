@@ -1,0 +1,9 @@
+vim /etc/facter/facts.d/classes.txt
+
+team=test
+site=stockholm
+profile=profile
+role=role
+customization=CU-1
+fqdn=agent1.pavan.in
+
