@@ -14,4 +14,4 @@ hierarchy:
 #      - "team/%{team}/profile%{profile}.yaml"
       - "team/%{team}/site/%{site}.yaml"
 #      - "nodes/%{trusted.certname}.yaml"
-      - "common.yaml"
+#      - "common.yaml"
