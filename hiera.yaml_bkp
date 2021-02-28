@@ -8,10 +8,5 @@ hierarchy:
   - name: "Yaml backend"
     data_hash: yaml_data
     paths:
-      - "team/%{team}/fqdn/%{::fqdn}"
-      - "team/%{team}/customization"
-      - "team/%{team}/role"
-      - "team/%{team}/profile"
-      - "team/%{team}/site"
       - "nodes/%{trusted.certname}.yaml"
       - "common.yaml"
