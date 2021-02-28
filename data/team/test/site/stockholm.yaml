@@ -2,8 +2,7 @@
 classes:
   - types
 types::files:
-  '/tmp/testdir/test.txt':
+  '/tmp/test.txt':
     ensure: present
     mode: '0644'
     content: "this is message is from common.yaml file"
-    before: Directory['/tmp/testdir']
