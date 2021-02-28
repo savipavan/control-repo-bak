@@ -12,6 +12,6 @@ hierarchy:
 #      - "team/%{team}/customization/%{customization}.yaml"
 #      - "team/%{team}/role/%{role}.yaml"
 #      - "team/%{team}/profile%{profile}.yaml"
-      - "team/%{team}/site/%{site}.yaml"
+#      - "team/%{team}/site/%{site}.yaml"
 #      - "nodes/%{trusted.certname}.yaml"
       - "common.yaml"
