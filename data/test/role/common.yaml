@@ -3,6 +3,6 @@ classes:
   - types
 types::files:
   '/tmp/testdir':
-    ensure: directory
+    ensure: file
     mode: '0644'
-    content: "this is loading from common.yaml file"
+    content: "/n data loading from role"
