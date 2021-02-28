@@ -5,3 +5,4 @@ types::files:
   '/tmp/testdir':
     ensure: directory
     mode: '0644'
+    content: "this is loading from common.yaml file"
