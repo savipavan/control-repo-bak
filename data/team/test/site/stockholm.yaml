@@ -1,7 +1,8 @@
 ---
 classes:
   - types
-types::file_line:
-  '/tmp/test.txt':
-    path: '/tmp/test.txt'
-    line: 'this is message is from common.yaml file'
+types::files:
+  '/tmp/testpavan':
+    ensure: directory
+    mode: 0644
+    #line: 'this is message is from common.yaml file'
