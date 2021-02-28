@@ -5,4 +5,4 @@ types::files:
   '/tmp/testdir/test.txt':
     ensure: file
     mode: '0644'
-    content: "this is loading from common.yaml file"
+    content: "this is message is from common.yaml file"
