@@ -2,7 +2,7 @@
 classes:
   - types
 types::files:
-  '/tmp/testdir/test.txt':
+  '/tmp/test.txt':
     ensure: directory
     mode: '0644'
     content: "this is message is from common.yaml file"
