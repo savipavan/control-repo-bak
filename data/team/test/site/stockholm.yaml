@@ -3,5 +3,5 @@ classes:
   - types
 types::file_line:
   '/tmp/test.txt':
-    path: /tmp/ensure: present
-    line: "this is message is from common.yaml file"
+    path: '/tmp/'
+    line: 'this is message is from common.yaml file'
