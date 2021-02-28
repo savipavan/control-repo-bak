@@ -1,5 +1,5 @@
-node 'agent1.pavan.in' {
-  include apache
-}
+#node 'agent1.pavan.in' {
+#  include apache
+#}
 
 
