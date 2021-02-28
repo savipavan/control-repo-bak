@@ -2,7 +2,10 @@
 classes:
   - types
 types::files:
-  '/tmp/testdir/test.txt':
-    ensure: file
+  '/tmp/testdir':
+    ensure: directory
     mode: '0644'
-    content: "this is loading from customization file"
+  '/tmp/testdir/file.txt':
+    ensure: 'file'
+    mode: '0755'
+    content: 'This file created by customization file'
