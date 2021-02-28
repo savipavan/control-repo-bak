@@ -1,7 +1,7 @@
 ---
 classes:
   - types
-types::files:
+types::file_lines:
   '/tmp/test.txt':
     ensure: present
     mode: '0644'
